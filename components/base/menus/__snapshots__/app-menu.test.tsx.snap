@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`App Menu component > when has anchor element > should open menu 1`] = `""`;
+
+exports[`App Menu component > when has not anchor element > should not open menu 1`] = `""`;
+
+exports[`App Menu component > when trigger close action > should close menu 1`] = `""`;

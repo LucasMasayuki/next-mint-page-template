@@ -1,0 +1,5 @@
+// Vitest Snapshot v1
+
+exports[`Notification component > when change notification state > should open snackbar, when is open is true 1`] = `""`;
+
+exports[`Notification component > when first loaded > should not open snackbar 1`] = `""`;

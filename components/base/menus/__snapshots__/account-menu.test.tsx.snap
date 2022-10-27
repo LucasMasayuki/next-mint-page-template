@@ -1,0 +1,5 @@
+// Vitest Snapshot v1
+
+exports[`Account Menu component > when clicked in photo avatar > should open menu 1`] = `"<div class=\\"MuiBox-root css-5nwj3y\\"><button class=\\"MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-137ul40-MuiButtonBase-root-MuiIconButton-root\\" tabindex=\\"0\\" type=\\"button\\" aria-label=\\"Conta\\" data-mui-internal-clone-element=\\"true\\"><div class=\\"MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-6u9n7p-MuiAvatar-root\\">T</div><span class=\\"MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root\\"></span></button></div>"`;
+
+exports[`Account Menu component > when render the first time > should not open menu 1`] = `"<div class=\\"MuiBox-root css-5nwj3y\\"><button class=\\"MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeSmall css-137ul40-MuiButtonBase-root-MuiIconButton-root\\" tabindex=\\"0\\" type=\\"button\\" aria-label=\\"Conta\\" data-mui-internal-clone-element=\\"true\\"><div class=\\"MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-6u9n7p-MuiAvatar-root\\">T</div><span class=\\"MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root\\"></span></button></div>"`;

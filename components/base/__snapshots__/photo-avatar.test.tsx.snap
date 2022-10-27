@@ -1,0 +1,5 @@
+// Vitest Snapshot v1
+
+exports[`PhotoAvatar component > when image is loaded > should render the picture 1`] = `"<div class=\\"MuiAvatar-root MuiAvatar-circular css-1fx3jmg-MuiAvatar-root\\"><img src=\\"test.com\\" class=\\"MuiAvatar-img css-1pqm26d-MuiAvatar-img\\"></div>"`;
+
+exports[`PhotoAvatar component > when picture is not loaded > should render the first letter of the name 1`] = `"<div class=\\"MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault css-hivpe0-MuiAvatar-root\\">T</div>"`;

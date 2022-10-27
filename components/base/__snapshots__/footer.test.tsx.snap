@@ -1,0 +1,3 @@
+// Vitest Snapshot v1
+
+exports[`Footer component > when render > should fill the footer with correct components 1`] = `"<footer class=\\"_footer_e9bad9\\"><div class=\\"MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-3ze8r2-MuiPaper-root\\"><div class=\\"MuiToolbar-root MuiToolbar-regular css-r6ewbb-MuiToolbar-root\\"><div class=\\"MuiGrid-root MuiGrid-container css-11lq3yg-MuiGrid-root\\"><div class=\\"MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 css-1fpckdt-MuiGrid-root\\"><h6 class=\\"MuiTypography-root MuiTypography-subtitle2 css-zdy50j-MuiTypography-root\\">Version 0.1.0</h6></div></div></div></div></footer>"`;

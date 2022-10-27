@@ -1,0 +1,37 @@
+.typography {
+  background: -webkit-linear-gradient(#f12711, #f5af19);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.showIt {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hideIt {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s linear;
+}
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

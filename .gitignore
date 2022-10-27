@@ -1,0 +1,14 @@
+node_modules
+.next
+yarn-error.log
+node_modules
+.env
+coverage
+coverage.json
+typechain
+typechain-types
+
+#Hardhat files
+cache
+artifacts
+
