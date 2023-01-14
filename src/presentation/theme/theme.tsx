@@ -54,7 +54,7 @@ const appTheme = (mode: ColorModes): Theme =>
   responsiveFontSizes(
     createTheme({
       typography: {
-        fontFamily: 'Royal Inferno',
+        fontFamily: 'FredokaOne',
       },
       palette: {
         mode,
@@ -91,13 +91,16 @@ const appTheme = (mode: ColorModes): Theme =>
         MuiCssBaseline: {
           styleOverrides: {
             body: {
-              background: 'url("/background2.png")',
               color: 'white',
               height: '100vh',
+              'scroll-behavior': 'smooth',
+            },
+            ':target': {
+              'scroll-margin-top': '.8em',
             },
             '@font-face': {
-              fontFamily: 'Royal Inferno',
-              src: `url("/Royal-Inferno.ttf") format("truetype")`,
+              fontFamily: 'FredokaOne',
+              src: `url("/FredokaOne-Regular") format("truetype")`,
             },
           },
         },
