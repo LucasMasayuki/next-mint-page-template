@@ -59,7 +59,7 @@ const appTheme = (mode: ColorModes): Theme =>
       palette: {
         mode,
         primary: {
-          main: '#eb5f2d',
+          main: '#ffff',
           light: '#f79b7a',
           dark: '#a4421f',
         },

@@ -87,7 +87,6 @@ const Home: NextPage = () => {
             <Grid item xs={12} md={12}>
               <Box
                 sx={{
-                  background: 'linear-gradient(#000000, #434343)',
                   borderColor: 'orange',
                   borderStyle: 'solid',
                   borderSize: 2,

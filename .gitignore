@@ -9,6 +9,6 @@ typechain
 typechain-types
 
 #Hardhat files
-cache
+./cache
 artifacts
 

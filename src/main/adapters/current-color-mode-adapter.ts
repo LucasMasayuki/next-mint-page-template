@@ -1,4 +1,4 @@
-import makeLocalStorageAdapter from '../../main/factories/local-storage-adapter-factory';
+import makeLocalStorageAdapter from 'main/factories/cache/local-storage-adapter-factory';
 import { ColorModes } from '../../utils/constants';
 
 export const setCurrentColorMode = (colorMode: ColorModes): void => {
