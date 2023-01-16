@@ -123,7 +123,7 @@ const AccountButton: React.FC = () => {
           if (sender === account) {
             dispatch(
               openNotification({
-                message: 'Success !!! Welcome to the hell',
+                message: 'Success !!! Welcome',
                 severity: AlertSeverity.SUCCESS,
               })
             );
@@ -142,7 +142,7 @@ const AccountButton: React.FC = () => {
       console.log(error);
       dispatch(
         openNotification({
-          message: 'You are too pure to enter hell',
+          message: 'Error, try again',
           severity: AlertSeverity.ERROR,
         })
       );
@@ -174,15 +174,11 @@ const AccountButton: React.FC = () => {
       </AppModal>
       <Button
         variant="contained"
+        color="primary"
         sx={{
           borderRadius: '100px',
           boxShadow:
             'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;',
-          background: 'linear-gradient(#f12711, #f5af19)',
-          '&:hover': {
-            background: '#af321c',
-            transition: 'background 500ms linear',
-          },
           p: 1,
           maxWidth: { xs: '100%', md: '200px' },
         }}

@@ -9,15 +9,15 @@ const Home: NextPage = () => {
   return (
     <div>
       <Head>
-        <title>AbstractAction</title>
+        <title>Bored ape yatch club</title>
         <meta name="description" content="Mint page" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <Layout>
-          <HomeSection/>
-          <MintSection/>
-          <FaqSection/>
-        </Layout>
+      <Layout>
+        <HomeSection />
+        <MintSection />
+        <FaqSection />
+      </Layout>
     </div>
   );
 };

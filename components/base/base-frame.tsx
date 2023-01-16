@@ -3,17 +3,13 @@ import styles from '../../styles/base-frame.module.css';
 import Image from 'next/image';
 
 type Props = {
-  src: string
-}
+  src: string;
+};
 
 const BaseFrame: React.FC<Props> = ({ src }) => {
   return (
     <div className={styles['preview']}>
-      <Image
-        src={src}
-        layout="fill"
-        alt="showcase-1"
-      />
+      <Image src={src} layout="fill" alt="showcase-1" />
     </div>
   );
 };

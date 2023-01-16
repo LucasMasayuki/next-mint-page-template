@@ -58,8 +58,8 @@ const MintContainer: React.FC = () => {
         const freeMints = await connectedContract.MAX_FREE_SUPPLY();
         const totalMinted = await connectedContract.totalSupply();
         const qtyFreeMinted = await connectedContract.qtyFreeMinted(account);
-        let parsedMaxPerWallet = parseInt(maxPerWallet._hex, 16);
-        let parsedQtyMinted = parseInt(qtyMinted._hex, 16);
+        const parsedMaxPerWallet = parseInt(maxPerWallet._hex, 16);
+        const parsedQtyMinted = parseInt(qtyMinted._hex, 16);
 
         if (parsedMaxPerWallet < qty + parsedQtyMinted) {
           dispatch(
@@ -81,7 +81,7 @@ const MintContainer: React.FC = () => {
         }
         console.log(count);
 
-        let mintPrice = count * parseFloat(ethers.utils.formatEther(price));
+        const mintPrice = count * parseFloat(ethers.utils.formatEther(price));
         console.log(mintPrice);
 
         const nftTxn = await connectedContract.welcomeToHell(qty, {

@@ -41,7 +41,7 @@ const AbstractDogSection: NextPage = () => {
               1000000000000000000
           );
 
-          let maxSupply = await connectedContract.MAX_SUPPLY();
+          const maxSupply = await connectedContract.MAX_SUPPLY();
 
           if (totalMinted === maxSupply) {
             setSoldOut(true);
@@ -68,22 +68,22 @@ const AbstractDogSection: NextPage = () => {
     return () => clearInterval(id);
   }, [check, dispatch]);
 
-
   return (
     <Grid
-    container
-    textAlign="center"
-    alignItems="center"
-    pr={{ xs: 2, md: 4 }}
-    pl={{ xs: 2, md: 4 }}
-    sx={{height: '100vh'}}
+      id="mint"
+      container
+      textAlign="center"
+      alignItems="center"
+      pr={{ xs: 2, md: 4 }}
+      pl={{ xs: 2, md: 4 }}
+      sx={{ height: '100vh' }}
     >
-    <Grid item xs={12} md={4}>
-      <BaseFrame src="/ape1.webp"/>
-    </Grid>
-    <Grid item xs={12} md={8}>
+      <Grid item xs={12} md={4}>
+        <BaseFrame src="/ape1.webp" />
+      </Grid>
+      <Grid item xs={12} md={8}>
         <Box
-        sx={{
+          sx={{
             borderColor: 'orange',
             borderStyle: 'solid',
             borderSize: 2,
@@ -92,66 +92,66 @@ const AbstractDogSection: NextPage = () => {
             height: '100%',
             p: 4,
             boxShadow:
-            'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;',
-        }}
+              'rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;',
+          }}
         >
-        <Typography
+          <Typography
             variant="h3"
             fontWeight="bold"
             className={Styles['typography']}
-        >
+          >
             Welcome
-        </Typography>
-        <br />
-        <Typography
+          </Typography>
+          <br />
+          <Typography
             variant="h4"
             fontWeight="bold"
             className={Styles['typography']}
-        >
+          >
             <Typography
-            variant="h4"
-            component="span"
-            className={Styles['typography']}
+              variant="h4"
+              component="span"
+              className={Styles['typography']}
             >
-            {qtyMinted} of 666 minted
+              {qtyMinted} of 666 minted
             </Typography>
-        </Typography>
-        <br />
-        <Typography
+          </Typography>
+          <br />
+          <Typography
             variant="body2"
             fontWeight="bold"
             className={Styles['typography']}
-        >
+          >
             Price:{'  '}
             <Typography
-            variant="body2"
-            component="span"
-            className={Styles['typography']}
+              variant="body2"
+              component="span"
+              className={Styles['typography']}
             >
-            0.00666 eth each
+              0.00666 eth each
             </Typography>
-        </Typography>
-        <Typography
+          </Typography>
+          <Typography
             variant="body2"
             fontWeight="bold"
             className={Styles['typography']}
-        >
+          >
             P/Wallet: 2
-        </Typography>
-        <br />
-        {soldOut ? (
+          </Typography>
+          <br />
+          {soldOut ? (
             <Typography
-            variant="h1"
-            fontWeight="bold"
-            className={Styles['typography']}
+              variant="h1"
+              fontWeight="bold"
+              className={Styles['typography']}
             >
-            SOLD OUT
+              SOLD OUT
             </Typography>
-        ) : (
+          ) : (
             <MintContainer />
-        )}
+          )}
         </Box>
-    </Grid>
+      </Grid>
     </Grid>
   );
 };

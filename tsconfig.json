@@ -21,14 +21,10 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
-    "components/home/fire.jsx",
-    "components/home/mint-loading.jsx",
     "src/utils/utilities.js",
-    "src/presentation/flame.js",
     "./scripts",
     "./test",
     "./typechain",
-    "components/home/initial-loading.jsx"
   ],
   "exclude": ["node_modules"],
   "files": ["./hardhat.config.ts"]

@@ -36,22 +36,16 @@ const Layout: React.FC<Props> = ({ children, className }) => {
     <div className={className}>
       <Header />
       <main>{children}</main>
-      <Fab sx={{position: 'absolute', bottom: 16, right: 16}}>
+      <Fab sx={{ position: 'absolute', bottom: 16, right: 16 }} color="primary">
         {isPlaying ? (
-            <IconButton
-              color="secondary"
-              onClick={toggleIsPlaying}
-            >
-              <Pause />
-            </IconButton>
-          ) : (
-            <IconButton
-              color="secondary"
-              onClick={toggleIsPlaying}
-            >
-              <PlayArrow />
-            </IconButton>
-          )}
+          <IconButton color="secondary" onClick={toggleIsPlaying}>
+            <Pause />
+          </IconButton>
+        ) : (
+          <IconButton color="secondary" onClick={toggleIsPlaying}>
+            <PlayArrow />
+          </IconButton>
+        )}
       </Fab>
       <audio
         id="player"

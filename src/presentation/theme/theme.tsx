@@ -59,7 +59,7 @@ const appTheme = (mode: ColorModes): Theme =>
       palette: {
         mode,
         primary: {
-          main: '#ffff',
+          main: '#89cbff',
           light: '#f79b7a',
           dark: '#a4421f',
         },
@@ -73,7 +73,7 @@ const appTheme = (mode: ColorModes): Theme =>
           contrastText: '#fff',
         },
         secondarySuccess: {
-          main: '#fff',
+          main: '#58d378',
           light: '#58d378',
           dark: '#357a38',
           contrastText: '#fff',

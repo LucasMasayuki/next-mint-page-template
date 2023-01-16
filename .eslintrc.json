@@ -1,11 +1,13 @@
 {
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
   "extends": [
+    "plugin:@typescript-eslint/recommended",
     "next",
     "next/core-web-vitals",
-    "plugin:react/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:jsx-a11y/recommended",
-    "eslint:recommended"
+    "prettier"
   ],
   "parser": "@typescript-eslint/parser",
   "globals": {

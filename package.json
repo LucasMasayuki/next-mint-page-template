@@ -20,7 +20,8 @@
     "ethers": "^5.7.1",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "tss-react": "^4.5.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
@@ -50,6 +51,7 @@
     "erc721a": "^4.2.3",
     "eslint": "^8.23.0",
     "eslint-config-next": "12.3.0",
+    "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "faker": "5.5.3",
     "hardhat": "^2.11.2",

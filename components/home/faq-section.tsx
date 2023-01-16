@@ -4,6 +4,7 @@ import type { NextPage } from 'next';
 const FaqSection: NextPage = () => {
   return (
         <Grid
+        id="faq"
         container
         textAlign="center"
         alignItems="center"
